@@ -1,0 +1,44 @@
+{
+  "name": "lolpresident",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular-bootstrap": "~0.11.2",
+    "angular-scenario": "~1.2.0",
+    "ngRouteNames": "^1.1.7",
+    "es5-shim": "~3.1.0",
+    "json3": "~3.3.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.4.0"
+  },
+  "appPath": "app",
+  "moduleName": "tutorielAngularAppNodeApp",
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  },
+  "authors": [
+    "WW930\\A646900 <guillaume.viau.external@atos.net>"
+  ],
+  "description": "kinda lolking2.0",
+  "main": "app.js",
+  "keywords": [
+    "lolking",
+    "lolpresident",
+    "lol"
+  ],
+  "license": "free",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

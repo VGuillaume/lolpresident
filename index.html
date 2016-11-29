@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr" ng-app="routeApp">
+    <head>
+        <meta charset="utf-8" />
+        <title>Todo List</title>        
+        <link rel="stylesheet" href="styles/style.css" />
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/angular-busy.css" />
+        <!-- <script src="js/todoList.js"></script> -->
+    </head>
+    <body>
+        <header>
+            <h1>Todo List</h1>
+        </header>
+        
+		
+		<route-loading-indicator>
+		<div ng-view>
+        </div>
+		</route-loading-indicator>
+		
+        <nav>
+            <a href="#/home" class="btn btn-primary">Accueil</a>
+            <a href="#/summName" class="btn btn-success">My summoner name</a>
+            <a href="#/test" class="btn btn-default">Test</a>
+        </nav>
+		
+    </script>
+
+    <!-- build:js(.) scripts/oldieshim.js -->
+    <!--[if lt IE 9]>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
+    <script src="bower_components/json3/lib/json3.js"></script>
+    <![endif]-->
+    <!-- endbuild -->
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/jquery/dist/angular-busy.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <script src="scripts/vendor/spin.min.js"></script>
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/popular.js"></script>
+        <script src="scripts/services/serviceajax.js"></script>
+        <script src="scripts/controllers/header.js"></script>
+        <script src="scripts/controllers/search.js"></script>
+        <script src="scripts/controllers/info.js"></script>
+        <script src="scripts/directives/loading.js"></script>
+        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/about.js"></script>
+		
+		<script src="scripts/controllers/home.js"></script>
+		<script src="scripts/controllers/summName.js"></script>
+        <!-- endbuild -->
+		
+    </body>
+</html>
