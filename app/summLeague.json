@@ -1,0 +1,53 @@
+{"355321": [
+   {
+      "queue": "RANKED_SOLO_5x5",
+      "name": "Zilean's Runemasters",
+      "entries": [{
+         "leaguePoints": 0,
+         "isFreshBlood": false,
+         "isHotStreak": false,
+         "division": "IV",
+         "isInactive": false,
+         "isVeteran": false,
+         "losses": 376,
+         "playerOrTeamName": "LePrésidentDeMoi",
+         "playerOrTeamId": "355321",
+         "wins": 378
+      }],
+      "tier": "GOLD"
+   },
+   {
+      "queue": "RANKED_FLEX_SR",
+      "name": "Karma's Wizards",
+      "entries": [{
+         "leaguePoints": 0,
+         "isFreshBlood": true,
+         "isHotStreak": true,
+         "division": "V",
+         "isInactive": false,
+         "isVeteran": false,
+         "losses": 11,
+         "playerOrTeamName": "LePrésidentDeMoi",
+         "playerOrTeamId": "355321",
+         "wins": 18
+      }],
+      "tier": "SILVER"
+   },
+   {
+      "queue": "RANKED_TEAM_3x3",
+      "name": "Volibear's Swashbucklers",
+      "entries": [{
+         "leaguePoints": 0,
+         "isFreshBlood": false,
+         "isHotStreak": false,
+         "division": "I",
+         "isInactive": false,
+         "isVeteran": false,
+         "losses": 2,
+         "playerOrTeamName": "Les Méga Low",
+         "playerOrTeamId": "TEAM-72275da0-2b40-11e2-9142-782bcb4ce61a",
+         "wins": 3
+      }],
+      "tier": "BRONZE"
+   }
+]}

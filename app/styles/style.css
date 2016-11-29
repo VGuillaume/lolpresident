@@ -1,0 +1,80 @@
+/*!
+ * Bootstrap v3.2.0 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*!
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=53e786599d0bfebb68dd)
+ * Config saved to config.json and https://gist.github.com/53e786599d0bfebb68dd
+ *//*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+
+
+html{
+	font-family:sans-serif;-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+	color: white;
+}
+
+h1{font-size:2em;margin:0.67em 0}
+
+img{border:0}
+
+svg:not(:root){overflow:hidden}
+ 
+body {
+	background-color: black;
+	background-color: black;
+    background-position: top center;
+    
+    background-image: url("https://s3-us-west-1.amazonaws.com/riot-api/img/background.jpg");
+}
+
+header h1{
+	text-align:center;
+}
+
+h4.ng-binding{
+	font-family: "Open Sans";
+	font-size: 14px;
+}
+
+input[type="checkbox"]{
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.tierRankInfo{
+	display: table-cell;
+    vertical-align: middle;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+#header-container{
+	background-image: url("../dragontail-6.22.1/img/global/PF_Ezreal_Profile_Banner.png");
+	background-color: #FAFAFA;
+	background-size: 100% 100%;
+	color : white;
+	padding-bottom: 15px;
+}
+
+
+
+div.container.body{
+	background-color: #FAFAFA;
+	1px solid #cdd2d2;
+	box-shadow: 0 1px #dcdfdf;
+    background: #f2f2f2;
+    border-radius: 2px;
+}
+
+div.row.box{
+	border: 1px solid #cdd2d2;
+	box-shadow: 0 1px #dcdfdf;
+    background: #f2f2f2;
+    border-radius: 2px;
+	padding-top: 15px;
+	padding-left: 2px;
+}

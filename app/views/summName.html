@@ -1,0 +1,55 @@
+<div class="container" id="header-container">
+	<h2>LolKing v2.0 sisi</h2>
+	<p>Le classement de lol présenté par le président de lol</p>
+
+	<div class="input-group">
+	<input type="text" placeholder="Your summoner name here" 
+		class="form-control"
+		ng-model="summName.name"
+		ng-change="$parent.alt = header.alt" my-enter="validate(0)" />
+		<div class="input-group-btn">
+		<button type="submit" class="btn btn-default" ng-click="validate()">
+			<i class="glyphicon glyphicon-ok"></i>
+		</button>
+		</div>
+	</div>
+</div>
+
+<div class="container body" ng-show="submittedName" cg-busy="{promise:isBusy,message:'Loading',templateUrl:'views/busyTemplate.html',minDuration:700}">	
+	<div class="row box">
+		<div class="col-md-1">
+			<img ng-src="{{profileIcon}}" alt="{{profileIconDefault}}" height="50" width="50" />
+		</div>
+		<div class="col-md-4">
+			<h3><strong>{{summonerName}}</strong></h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="input-group-btn">
+			<button type="submit" class="btn btn-default" ng-click="validate(0)">Solo 5v5</button>
+			<button type="submit" class="btn btn-default" ng-click="validate(1)">Flex</button>
+			<button type="submit" class="btn btn-default" ng-click="validate(2)">Team 3v3</button>
+			</ul>
+		</div>
+	</div>
+	<div class="row box" ng-show="isRanked">
+		<div class="col-md-6">
+			<div class="row">
+				<div class="col-md-2">
+					<img ng-src="{{tierRankImg}}" alt="{{profileIconDefault}}" height="50" width="50">
+				</div>
+				<div class="col-md-10">
+				<h3>{{queue}}<strong> ** {{tierRank}} {{division}} **  </strong><small>{{LP}}LP</small></h3>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container body" ng-show="!submittedName">
+	<h3>{{summName.name}}<small>{{errorMessage}}</small></h3>
+</div>
+
+<div class="container body" ng-show="!isRanked">
+	<h3>{{errorRankedMessage}}</h3>
+</div>
